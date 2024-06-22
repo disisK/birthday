@@ -1,6 +1,6 @@
 let songs = [
     {
-        path: 'ongs/palagi.mp3',
+        path: 'songs/palagi.mp3',
 
     },
     {
