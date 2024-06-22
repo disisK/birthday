@@ -7,7 +7,7 @@ const disk = document.querySelector('.disk');
 const currentTime = document.querySelector('.current-time');
 const musicDuration = document.querySelector('.song-duration');
 const playBtn = document.querySelector('.play-btn');
-const forwardBtn = document.querySelector('.forward-btn'); // Added period for class selector
+const forwardBtn = document.querySelector('.forward-btn'); 
 const backwardBtn = document.querySelector('.backward-btn');
 
 playBtn.addEventListener('click', () => {
@@ -28,13 +28,11 @@ const setMusic = (i) => {
 
     currentTime.innerHTML = '00:00';
     
-    // Add an event listener for the loadedmetadata event
     music.addEventListener('loadedmetadata', () => {
         seekBar.max = music.duration;
         musicDuration.innerHTML = formatTime(music.duration);
     });
     
-    // Start loading the audio file
     music.load();
 };
 
@@ -93,7 +91,7 @@ function showImage() {
     imageContainer.className = "image-container";
 
     var image = document.createElement("img");
-    image.src = "file:///C:/Users/ADMIN/Desktop/bday/images/zoe.png";
+    image.src = "images/zoe.png";
     image.className = "displayed-image";
 
     var closeButton = document.createElement("span");
@@ -111,7 +109,6 @@ function showImage() {
 
     document.body.appendChild(imageContainer);
 
-    // Trigger the transition
     setTimeout(function() {
         imageContainer.classList.add("show");
     }, 10); 
