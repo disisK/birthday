@@ -4,7 +4,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    overflow: hidden; /* Ensure content does not overflow */
+    overflow: hidden; 
 }
 
 .bck {
@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-    background-image: url('file:///C:/Users/ADMIN/Desktop/bday/images/cutie.gif');
+    background-image: url('images/cutie.gif');
     background-size: cover;
     width: 150px;
     height: 120px;
@@ -48,8 +48,8 @@ body {
 .press img {
     margin-top: 105px;
     display: block;
-    width: 150px; /* Adjust to the desired width */
-    height: auto; /* Maintain aspect ratio */
+    width: 150px; 
+    height: auto; 
 }
 
 .image-container {
@@ -100,9 +100,9 @@ body {
     padding: 30px;
     overflow: hidden;
     background-color: rgb(255, 175, 171);
-    position: absolute; /* Use absolute positioning */
-    left: 270px; /* Adjust this value to move the player to the left */
-    top: 90px; /* Adjust this value to move the player down */
+    position: absolute; 
+    left: 270px; 
+    top: 90px; 
 }
 
 .artist {
@@ -134,7 +134,7 @@ h2 {
     height: 135px;
     border-radius: 50%;
     background: rgb(255, 230, 107);
-    background-image: url('file:///C:/Users/ADMIN/Desktop/bday/images/estelle.png');
+    background-image: url('images/estelle.png');
     background-size: cover;
     box-shadow: 0 0 0 10px rgba(198, 71, 147, 0.114);
     animation: rotate 15s linear infinite;
@@ -284,9 +284,9 @@ h2 {
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    left: 20px; /* Position the balloons to the left side */
-    bottom: -100px; /* Start below the visible area */
-    visibility: hidden; /* Initially hidden */
+    left: 20px; 
+    bottom: -100px; 
+    visibility: hidden; 
 }
 
 @keyframes balloon {
@@ -295,7 +295,7 @@ h2 {
         opacity: 0;
     }
     10% {
-        visibility: visible; /* Make visible when animation starts */
+        visibility: visible; 
         opacity: 1;
     }
     50% {
@@ -350,7 +350,7 @@ h2 {
         opacity: 0;
     }
     10% {
-        visibility: visible; /* Make visible when animation starts */
+        visibility: visible; 
         opacity: 1;
     }
     50% {
