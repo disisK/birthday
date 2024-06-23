@@ -24,7 +24,7 @@ let songs = [
         path: 'songs/romcom.mp3',
     },
     {
-        path: 'dilaw.mp3',
+        path: 'songs/dilaw.mp3',
     },
     {
         path: 'songs/come.mp3',
@@ -34,17 +34,5 @@ let songs = [
     },
     {
         path: 'songs/things.mp3',
-    },
-    {
-        path: 'things.mp3',
-    },
-    {
-        path: 'songs/things.mp3',
-    },
-    {
-        path: 'songs/things.mp3',
-    },
-    {
-        path: 'songs/things.mp3',
-    },
+    }
 ]
