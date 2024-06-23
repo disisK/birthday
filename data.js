@@ -33,6 +33,9 @@ let songs = [
         path: 'songs/she.mp3',
     },
     {
+        path: 'songs/love.mp3',
+    },
+    {
         path: 'songs/things.mp3',
     }
 ]
