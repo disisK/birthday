@@ -37,5 +37,11 @@ let songs = [
     },
     {
         path: 'songs/things.mp3',
+    },
+    {
+        path: 'songs/denim.mp3',
+    },
+    {
+        path: 'songs/plot.mp3',
     }
 ]
