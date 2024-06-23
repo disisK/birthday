@@ -91,7 +91,7 @@ function showImage() {
     imageContainer.className = "image-container";
 
     var image = document.createElement("img");
-    image.src = "images/zoe.png";
+    image.src = "images/star.png";
     image.className = "displayed-image";
 
     var closeButton = document.createElement("span");
