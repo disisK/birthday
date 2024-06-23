@@ -1,10 +1,18 @@
 let songs = [
     {
         path: 'songs/palagi.mp3',
-
     },
     {
         path: 'songs/museo.mp3',
+    },
+    {
+        path: 'songs/hiraya.mp3',
+    },
+    {
+        path: 'songs/unti.mp3',
+    },
+    {
+        path: 'songs/ganda.mp3',
     },
     {
         path: 'songs/things.mp3',
@@ -14,6 +22,21 @@ let songs = [
     },
     {
         path: 'songs/lagi.mp3',
+    },
+    {
+        path: 'songs/things.mp3',
+    },
+    {
+        path: 'songs/things.mp3',
+    },
+    {
+        path: 'songs/things.mp3',
+    },
+    {
+        path: 'songs/things.mp3',
+    },
+    {
+        path: 'songs/things.mp3',
     },
     {
         path: 'songs/things.mp3',
