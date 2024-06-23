@@ -15,6 +15,9 @@ let songs = [
         path: 'songs/ganda.mp3',
     },
     {
+        path: 'songs/waltz.mp3',
+    },
+    {
         path: 'songs/things.mp3',
     },
     {
@@ -24,13 +27,10 @@ let songs = [
         path: 'songs/lagi.mp3',
     },
     {
-        path: 'songs/things.mp3',
+        path: 'songs/romcom.mp3',
     },
     {
-        path: 'songs/things.mp3',
-    },
-    {
-        path: 'songs/things.mp3',
+        path: 'songs/lagi.mp3',
     },
     {
         path: 'songs/things.mp3',
